@@ -29,5 +29,6 @@ module Project03Server
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+    config.time_zone = "Australia/Sydney"
   end
 end
